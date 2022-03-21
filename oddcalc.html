@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd Calc</title>
+</head>
+<body>
+    <script>
+       
+        var number1 = prompt("Give me a number");
+        var number2 = prompt("Give me another number");
+        var operator = prompt("Give me a operator(mul/div/mod)");
+
+        if (operator ===  "mul"){
+            console.log(number1*number2)
+            document.write(number1*number2)
+        }else if (operator === "div"){
+            console.log(number1/number2)
+            document.write(number1/number2)
+        }else if (operator === "mod"){
+            console.log(number1%number2)
+            document.write(number1%number2)
+        }else{
+            console.log("hmm the calculations seem off try again")
+        }
+    </script>
+</body>
+</html>
